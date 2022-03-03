@@ -15,7 +15,7 @@ import { StyledBlock } from './${name}.${style}'`
       'sass': 'scss'
     }
     styleImport = `
-import styles from './${name}.styles.${styleExtensionMap[style] || style}'`
+import styles from './${name}.module.${styleExtensionMap[style] || style}'`
     returnStatement = `return (
     <>
       <p className={styles.line}>${name} goes here.</p>
