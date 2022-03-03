@@ -69,7 +69,7 @@ const createComponentSet = (line) => {
       const styleExtensionMap = {
         'styled': `${style}.js`,
         'sass': 'styles.scss',
-        'css':  `styles.css`
+        'css':  `module.css`
       }
 
       const STYLE_FILE_EXTENSION = styleExtensionMap[style]
