@@ -68,8 +68,8 @@ const createComponentSet = (line) => {
     if (['css', 'sass', 'styled'].includes(style)) {
       const styleExtensionMap = {
         'styled': `${style}.js`,
-        'sass': 'styles.scss',
-        'css':  `styles.css`
+        'sass': 'module.scss',
+        'css':  `module.css`
       }
 
       const STYLE_FILE_EXTENSION = styleExtensionMap[style]
